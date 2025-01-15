@@ -1,0 +1,91 @@
+.section-container {
+    margin: 0;
+}
+
+.smartAssistance {
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.contentCard {
+    position: relative;
+    padding-right: 0px;
+    padding-left: 0px;
+    overflow: hidden;
+    border-right: 1px solid white;
+}
+
+.Card2 {
+    position: relative;
+    padding-right: 0px;
+    padding-left: 0px;
+    overflow: hidden;
+    border-left: 1px solid white;
+}
+
+.contentCard img {
+    transition: transform 5s ease;
+    /* Smooth zoom-in effect */
+}
+
+.contentCard:hover img {
+    transform: scale(1.1);
+    /* Zoom-in effect */
+}
+
+.Card2 img {
+    transition: transform 5s ease;
+    /* Smooth zoom-in effect */
+}
+
+.Card2:hover img {
+    transform: scale(1.1);
+    /* Zoom-in effect */
+}
+
+.text-content {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+
+.read-more-btn {
+    padding: 10px 40px;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.read-more-btn:hover {
+    background: white;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .Card2 {
+        border-left: 0px;
+        border-top: 2px solid white;
+    }
+
+    .text-content {
+        position: absolute;
+        bottom: 50px;
+        left: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .content-card {
+        height: 300px;
+    }
+
+    .smartAssistance {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+}
