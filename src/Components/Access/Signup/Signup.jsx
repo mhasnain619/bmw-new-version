@@ -55,7 +55,7 @@ const Signup = () => {
 
                             <Form.Group controlId="formPassword" className="mb-3 ">
                                 <Form.Label>Password</Form.Label>
-                                <Form.Control name="password" onChange={handleChange} value={userData.password} type="password" placeholder="Enter your password" />
+                                <Form.Control name="password" onChange={handleChange} value={userData.password} type="password" placeholder="Create your password" />
                             </Form.Group>
 
                             <Form.Group controlId="formCheckbox" className="mb-3">
